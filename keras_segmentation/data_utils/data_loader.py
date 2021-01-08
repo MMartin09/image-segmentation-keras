@@ -23,8 +23,8 @@ random.seed(DATA_LOADER_SEED)
 #class_colors = [(random.randint(0, 255), random.randint(
 #    0, 255), random.randint(0, 255)) for _ in range(5000)]
 
-class_colors = [(0, 0, 0), (255, 0, 0), (220, 220, 220)]
-
+# Invalid, Sky, Cloud, Sun
+class_colors = [(0, 0, 0), (255, 0, 0), (220, 220, 220), (52, 235, 216)]
 
 class DataLoaderError(Exception):
     pass
